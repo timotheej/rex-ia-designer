@@ -6,6 +6,7 @@ Dossier de suivi du deck présenté le 16/10/2026 à la communauté « transform
 ## Liens
 
 - Deck Figma Slides : https://www.figma.com/slides/qjeA2C1hG8Xr218poRhiGS (fileKey `qjeA2C1hG8Xr218poRhiGS`, org ATOS_International, compte timothee.jezek@atos.net)
+- Dépôt GitHub (privé) : https://github.com/timotheej/rex-ia-designer
 - Source MCPS (écrans) : https://www.figma.com/design/Pl2utfeJWRzMJ4v840ixLj/MCPS (page Draft `0:1`)
 - Repo MCPS local : `~/ANS/mcps` (PROJET.md, specs/)
 - Charte Atos (skill PPTX) : `~/Library/Mobile Documents/com~apple~CloudDocs/Atos/PPT/atos-pptx-skill/` (catalogue_modeles.pdf, catalogue_layouts.pdf)
