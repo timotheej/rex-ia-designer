@@ -1,6 +1,6 @@
 # REX IA · Le designer et l'IA (deck Figma Slides)
 
-Dossier de suivi du deck présenté le 16/10/2026 à la communauté « transformation de nos opérations ».
+Dossier de suivi du deck présenté le 30/10/2026 (date à confirmer) à la communauté « transformation de nos opérations ».
 À lire en premier à chaque nouvelle session sur ce sujet.
 
 ## Liens

@@ -1,115 +1,126 @@
 # Contenu · REX IA, Le designer et l'IA
 
-16/10/2026 · Timothée Jezek + [Prénom collègue]
-14 slides, 20 minutes à deux, communauté « transformation de nos opérations ».
-Fil rouge : **« L'IA accélère la production, le designer garde le jugement. »**
+30/10/2026 (à confirmer) · Timothée Jezek + [Prénom collègue]
+9 slides, 20 minutes maximum à deux (environ 16 minutes de présentation et 4 minutes de questions), communauté « transformation de nos opérations ».
 
-| Partie | Slides | Qui | Durée |
-|---|---|---|---|
-| Intro et contexte | 1 à 3 | Les deux | 2 min |
-| Itérer des écrans | 4 à 5 | [Prénom collègue] | 4 min |
-| Aller plus loin sur MCPS | 6 à 9 | Timothée | 7 min |
-| Pourquoi l'IA ne peut pas être autonome | 10 à 11 | Timothée, exemple du collègue | 4 min |
-| Ce qui a changé, l'escalier, questions | 12 à 14 | Les deux | 3 min |
+Version 5 (20/10/2026), refondue après le point d'équipe du 20/10. Sauvegarde de la v4 dans le scratchpad de session (`contenu-v4.md`).
+
+## Cadre
+
+- **Sujet unique** : comment le Design Studio crée et itère des écrans avec un agent et des skills, à partir d'un besoin du PO. Pas de design system, pas d'analyse de données, pas d'escalier des usages.
+- **Un écosystème, puis un zoom** : une slide pour montrer que le Design Studio a pris le chemin de l'IA (bibliothèque de skills enrichie à chaque projet, plusieurs usages), puis le cas détaillé, qui pioche dans cette bibliothèque.
+- **Des humains dans le process** : une chronologie où l'on voit qui intervient à chaque étape (PO, designer, devs) et quel skill sert à quel moment.
+- **On parle de gains, jamais de manques** : ne pas dire « avant, on ne faisait pas ». Dire ce qui va plus vite, ce qu'on fait plus en profondeur.
+- **Générique** : testé sur un projet réel, un service public national. Pas de nom de projet ni de contexte métier. La méthode vaut pour un autre design system (DSFR aujourd'hui, un autre demain).
+- **Sous notre contrôle** : l'outil sert le designer, il ne le remplace pas. Les versions produites demandent un œil de product designer avant d'aller aux devs.
+- **Notre cas seulement** : les chiffres du test valent pour notre cas, on ne généralise pas aux autres pôles.
+- **Pas de gain chiffré non mesuré** : « une semaine → deux heures » n'est pas mesuré, il ne va pas à l'écran. Les seuls chiffres affichés sont ceux du test.
+
+| Partie | Slides | Durée |
+|---|---|---|
+| Intro | 1 et 2 | 2 min 30 |
+| Le cas | 3 à 5 | 7 min |
+| Ce qu'on a appris | 6 et 7 | 4 min 30 |
+| Suite | 8 | 1 min 30 |
+| Questions | 9 | 4 min |
+
+Répartition entre les deux intervenants : à décider ensemble.
 
 ---
 
-## Intro et contexte
+## Intro
 
-### Slide 1 · Couverture
+### Slide 1 · Couverture (15 s)
 - Titre : Le designer et l'IA
-- Sous-titre : Ce que l'IA a changé dans notre façon de concevoir
+- Sous-titre : Créer des écrans avec un agent et des skills
 - Timothée Jezek, UI / Product Designer · [Prénom Nom], UI Designer
-- Notes : rien à dire, on enchaîne.
 
-### Slide 2 · Deux designers, deux niveaux
-- Titre : On n'a pas le même niveau avec l'IA, et c'est l'intérêt
-- [Collègue] : « Je m'y mets. J'itère mes écrans plus vite. »
-- Timothée : « Je n'ouvre presque plus Figma, et je n'ai jamais fait autant d'UX. »
-- En bas : L'IA accélère la production, le designer garde le jugement.
-- Notes (les deux) : chacun se présente en une phrase. On annonce le parcours : on part de l'usage le plus simple, on monte vers le plus avancé, et on finit sur ce que l'IA ne peut pas faire seule. Message pour la salle : tout le monde peut commencer quelque part.
+### Slide 2 · Le Design Studio et l'IA (2 min 15)
+- Titre : Le Design Studio s'est outillé
+- Une bibliothèque de skills, enrichie à chaque projet
+- Nos usages : créer et itérer des écrans, veille, préparation des tests utilisateurs, exploration [liste à confirmer]
+- Aujourd'hui, un zoom : la création d'écrans, notre usage le plus courant
+- Notes : on présente l'ensemble avant le détail, comme les slides Atos en ouverture d'une avant-vente. Chaque projet améliore la bibliothèque, le projet suivant en profite. Annoncer le zoom.
 
-### Slide 3 · Le terrain : MCPS
-- Titre : Un cas réel : Ma Certif' Pro Santé
-- Téléservice national pour l'ANS · environ 1 million de professionnels de santé · 45 référentiels métiers dans le MVP · DSFR et accessibilité RGAA obligatoires · MVP en novembre 2026
-- Visuel : tableau de bord MCPS (Figma MCPS, frame `281:12481`)
-- Notes (Timothée) : on ne parle pas d'un POC. C'est un service public, avec de vrais utilisateurs, des normes strictes et un client exigeant. C'est pour ça que nos exemples comptent : ce qui marche ici marche en conditions réelles.
+## Le cas
 
-## Itérer des écrans (à compléter avec le collègue)
+### Slide 3 · Notre outillage (2 min)
+- Titre : Un agent, des skills, un designer
+- Schéma avec légende : un agent (Claude Code), des skills appelés au bon moment, le designer qui pilote
+- Les skills :
+  - Veille Mobbin : partir d'écrans réels plutôt que d'une page blanche
+  - Better UI et layout DSFR : composer avec les composants du design system, sans en réinventer
+  - UX roast : critiquer un écran avec une grille, avant de le montrer
+  - Le socle (dsfr-toolkit) : règles DSFR, grilles de notation, boilerplate React
+- En bas : Un seul agent. Les savoir-faire sont dans les skills.
+- Notes : chaque skill encode une exigence. Changer de design system revient à changer de skills, pas d'agent. Le « pourquoi un seul agent » arrive slide 7, ne pas le développer ici.
 
-### Slide 4 · Itérer des écrans avec l'IA
-- Titre : Itérer des écrans plus vite
-- Générer plusieurs variantes d'un même écran · Explorer des pistes de mise en page, de hiérarchie, de contenu · Ajuster vite après un retour du PO ou d'un atelier
-- Outils : [IA dans Figma, Claude, autre]
-- Notes ([Collègue]) : raconter comment il s'y est mis, sans chercher à paraître expert. On n'a pas besoin de tout maîtriser pour en tirer un bénéfice. On commence par ce qu'on fait déjà tous les jours, l'itération d'écran.
+### Slide 4 · Le process (3 min 30)
+- Titre : Du besoin du PO aux écrans repris par les devs
+- Chronologie, avec pour chaque étape qui intervient et quel skill sert :
 
-### Slide 5 · Un exemple concret
-- Titre : [Écran ou parcours] : de 1 piste à [X] variantes
-- Visuel : écran de départ, 2 ou 3 variantes générées, version retenue
-- Ce que ça a changé : plus de pistes explorées pour le même temps · on arrive en revue avec des options, pas une seule proposition
-- Ce qui coince : [ce qui a dû être repris à la main]
-- Notes ([Collègue]) : insister sur le « ce qui coince » (variante hors design system, ou qui ne tient pas sur mobile). Ça prépare la partie sur l'autonomie.
+| Étape | Qui | Avec quoi |
+|---|---|---|
+| 1. Besoin exprimé en atelier | PO, designer | |
+| 2. Écrans et variantes | Designer + agent | veille Mobbin, better UI, layout DSFR |
+| 3. Critique avant présentation | Designer + agent | UX roast, grilles |
+| 4. Démo au PO, retours | PO, designer | itération avec les mêmes skills |
+| 5. Questions techniques | Devs, PO, designer | |
+| 6. Écrans liés à l'US | PO | US avec lien vers Figma |
+| 7. Reprise par les devs | Devs | écrans Figma, de plus en plus avec leurs propres outils d'IA |
 
-## Aller plus loin sur MCPS
+- En bas : L'IA accélère la production. Les décisions se prennent avec le PO et les devs.
+- Notes : les entrants peuvent prendre toutes les formes (atelier, US, documentation), le process reste le même. Les US sont souvent rédigées après l'atelier. La passation aux devs se fait comme avant, par l'US et Figma. Le gain se voit sur les étapes 2 à 4 : plus de variantes, plus d'états traités, plus de temps sur l'UX.
 
-### Slide 6 · Avant / après
-- Titre : Le flux du designer a changé
-- Avant : maquette Figma → handoff → le dev interprète → allers-retours
-- Maintenant : comprendre la donnée → prototype fonctionnel en DSFR → itération avec PO et devs → maquette client si besoin
-- En bas : Figma n'est plus le lieu principal de conception
-- Notes (Timothée) : on ne supprime pas Figma, on change le centre de gravité. Le livrable de référence devient un prototype qui se comporte comme le vrai produit.
+### Slide 5 · Un problème rencontré (1 min 30)
+- Titre : Les écrans dépendaient d'une réponse technique
+- Le cas : un dépôt de fichiers analysé par un antivirus
+- Première itération : un doute sur la durée de l'analyse
+- Question remontée au PO, point avec les devs, test du pire cas : 10 fichiers de 10 Mo, environ 2 minutes
+- Décision : un chargement qui affiche les étapes de l'analyse
+- En bas : Ce que l'IA ne pouvait pas trancher, l'échange avec les devs l'a tranché.
+- Visuel : écran de chargement par étapes (captures à fournir, données fictives)
+- Notes : une analyse en une demi-seconde se passe d'écran d'attente, deux minutes non. Ni l'IA ni le PO ne connaissaient la réponse. C'est le designer qui a vu que l'écran en dépendait.
 
-### Slide 7 · Comprendre avant de dessiner
-- Titre : L'IA ouvre au designer l'accès à la donnée
-- Exemple 1, le périmètre : 52 référentiels, environ 3 000 actions analysés avec l'IA · l'hypothèse de référentiels homogènes ne tenait pas · périmètre MVP arbitré sur des faits (45 référentiels)
-- Exemple 2, la trouvabilité : le professionnel pense par sujet clinique, le référentiel classe par méthode · on a simulé le problème avant de designer · réponse MVP simple, cible plus ambitieuse pour la suite
-- Notes (Timothée) : l'usage le plus utile, et il n'est pas visuel. Un UI designer n'aurait jamais eu le temps d'analyser 52 documents à la main. L'IA a fait le volume, le designer a fait le tri et a porté l'arbitrage. Trouvabilité = simulation de cadrage, pas un benchmark.
+## Ce qu'on a appris
 
-### Slide 8 · Concevoir des comportements, pas seulement des écrans
-- Titre : Le prototype comme langage commun
-- Tous les états spécifiés avant validation : nominal, vide, erreur, chargement, maintenance
-- Exemple : dépôt de justificatifs avec contrôle antivirus (analyse en cours, rejet, erreur serveur). Visuels MCPS : `5743:47248`, `5119:41070`, `4935:39931`
-- Variantes comparées côte à côte pour faire trancher le PO
-- UX writing travaillé avec l'IA : « minimum atteint » ≠ « validation par l'Ordre »
-- Notes (Timothée) : avant, les cas limites se découvraient en développement. Maintenant on les traite dans le prototype. Le PO, les devs et l'audit RGAA réagissent à du concret. Les arbitrages sont tranchés et tracés par le PO.
+### Slide 6 · Le designer garde la main (2 min)
+- Titre : L'IA produit, le designer juge
+- Sur notre test, aucune version produite n'était livrable telle quelle
+- Les écarts sont fins : hiérarchie de l'information, nuances métier, cohérence avec le reste du service
+- C'est pour ça que l'outil reste sous le contrôle du designer, pas en libre-service
+- Notes : un non-designer livrerait ces versions sans voir les problèmes. Repérer ces nuances, c'est le métier de product designer. Formuler sans défensive : l'outil sert le designer, il ne le remplace pas.
 
-### Slide 9 · Industrialiser
-- Titre : Transformer un usage perso en outil d'équipe
-- Un boilerplate DSFR React construit avec une équipe d'agents IA : recherche UX, design UI, relecture de code
-- En production sur MCPS · repris par des collègues sur d'autres projets
-- Notes (Timothée) : le passage clé, c'est quand un usage individuel devient un actif réutilisable. Un autre designer peut reprendre le dépôt et produire. C'est là que l'IA commence à transformer l'organisation, pas seulement ma productivité.
+### Slide 7 · Pourquoi un seul agent (2 min 30)
+- Titre : Sur notre cas, un agent et des skills font mieux
+- Sous-titre : Même demande sur un écran métier, trois façons de faire, pour une maquette Figma
+- Visuel : tableau chiffré, « un agent + skills » en référence
 
-## Pourquoi l'IA ne peut pas être autonome
+| | Équipe d'agents (dsfr-toolkit) | Un agent + skills | Sans outillage |
+|---|---|---|---|
+| Coût | 17 $ (1,5 fois plus) | 12 $ | 10 $ (un peu moins) |
+| Temps | 45 min (2 fois plus) | 20 min | 15 min (un peu moins) |
+| Version retenue par le designer | non | oui | non (DSFR moins bien respecté) |
 
-### Slide 10 · La thèse
-- Titre : Plus l'erreur coûte cher, moins l'IA peut être autonome
-- POC, projet vibe codé : le « suffisamment bien » suffit, l'erreur coûte peu, l'autonomie fonctionne
-- Client réel : il faut du bien fini, l'erreur coûte cher, un humain doit trancher
-- En bas : On automatise le vérifiable, on garde le jugeable.
-- Notes (Timothée) : beaucoup de workflows, surtout côté dev, défendent des chaînes multi-agents 100 % autonomes. Ça marche quand un test dit si c'est juste. En design, il n'y a pas de test automatique du « bien fini ». On n'est pas contre les agents : on en utilise. Le sujet, c'est où on place l'humain.
+- En bas : Sur notre cas, l'équipe d'agents : 1,5 fois le coût, 2 fois le temps, pour une version non retenue.
+- Mention : Coût API par maquette, moyenne de deux passages, arrondi. Notre cas : du design DSFR avec un designer présent pour juger.
+- Notes : le dsfr-toolkit a d'abord été construit en multi-agents (UX, UI, recette), on a mesuré. Le temps de l'équipe d'agents part dans les specs qu'ils se passent et dans les tours de recette, alors qu'un designer juge une version d'un coup d'œil. Sans outillage, un peu moins cher, mais le DSFR est moins bien respecté : le socle sert. Le multi-agents a sûrement du sens ailleurs. Si on demande : sur un prototype React, 4 fois le coût et 5 fois le temps (10 $ et 30 min contre 2,5 $ et 6 min).
 
-### Slide 11 · Ce qu'on a vécu sur MCPS
-- Titre : L'IA se trompe de façon plausible
-- Pas de test du « bien fini » : hiérarchie, ton, clarté d'un parcours n'ont pas de verdict automatique. Un agent relecteur a les mêmes angles morts.
-- Des erreurs crédibles : 3 faux positifs sur 5 dans une détection, des cycles de 7 ou 8 ans au lieu de 6 ou 9, des libellés métier inventés
-- Des normes qui demandent du jugement : composants hors DSFR proposés, drawer confondu avec une modale, accessibilité en partie vérifiable seulement à la main
-- Le design est une négociation : périmètre, mono ou multi-fichiers, placement d'une mention, c'est le PO qui tranche
-- Devant un client, quelqu'un signe
-- Notes (Timothée puis [Collègue]) : chaque erreur avait l'air juste, c'est ça le danger. [Collègue] ajoute son exemple au niveau écran. Conclure : les agents sont excellents en autonomie sur ce qui se vérifie (liste de composants, captures desktop et mobile, relecture de code). Ils ont besoin d'un designer sur ce qui se juge.
+## Suite
 
-## Conclusion
+### Slide 8 · Ce qu'on améliore encore (1 min 30)
+- Titre : On continue d'évoluer
+- Lire les informations là où elles sont écrites : les US plutôt que les échanges de messagerie
+- Passer les écrans aux devs avec leur structure, par le MCP Figma, en plus du lien dans l'US
+- Partager les skills avec les autres designers du Design Studio
+- Notes : dans l'exemple de l'antivirus, la durée est passée par la messagerie. Si elle était dans l'US, l'agent pourrait la lire. Le connecteur a un coût : à faire quand le gain le justifie. Côté devs, beaucoup donnent déjà les écrans à leurs outils d'IA : le MCP Figma leur donnerait la structure, pas seulement l'image.
 
-### Slide 12 · Ce qui a changé pour nous
-- Titre : Le temps gagné part dans l'UX
-- Plus d'analyse · Plus d'itérations et de tests · Moins de retours en dev · Un rôle élargi (donnée, spec, code)
-- Notes (les deux) : chacun reprend un point. Gain de temps chiffré : pas mesuré, on préfère le dire plutôt qu'inventer un chiffre. Gains qualitatifs, visibles dans les livrables.
-
-### Slide 13 · Par où commencer
-- Titre : Chacun sa prochaine marche
-- Escalier : 1. Itérer des écrans · 2. Prototyper du fonctionnel · 3. Analyser et cadrer avec la donnée · 4. Industrialiser pour l'équipe
-- Conseils : commencer par un livrable concret, pas par l'outil · donner beaucoup de contexte à l'IA · tout vérifier, surtout ce qui a l'air juste
-- Notes ([Collègue] puis Timothée) : [Collègue] se situe sur la marche 1 et dit sa prochaine. Timothée : plus on monte, plus l'IA en fait, mais le jugement reste au designer. Inviter la salle à se situer.
-
-### Slide 14 · Questions
+### Slide 9 · Questions (4 min)
 - Questions · contacts des deux intervenants
-- Questions probables : gain de temps ? pas mesuré, qualitatif · données envoyées à l'IA ? [réponse selon règle Atos et ANS] · un exemple d'erreur ? faux positifs, cycles de 7 ou 8 ans · Figma, c'est fini ? non, maquettes client et exploration visuelle.
+- Réponses prêtes :
+  - Combien de temps gagné ? Mesuré sur la production d'un écran (slide 7), pas sur un projet complet. Le temps gagné part dans l'UX.
+  - Les agents peuvent-ils être utilisés par d'autres ? Les skills se partagent entre designers. Le résultat demande toujours un œil de designer avant d'aller aux devs.
+  - Ça marche sur un autre design system ? Oui, on change les skills, pas l'agent.
+  - Données envoyées à l'IA ? [réponse selon règle Atos et ANS]
+  - Figma, c'est fini ? Non : les devs reprennent les écrans depuis Figma, lien dans l'US.
+  - Agents ou skills ? On a fait les deux et on a mesuré : sur notre cas, un agent et des skills coûtent moins et vont plus vite. Ailleurs, à chacun de tester.
