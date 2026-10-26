@@ -1,19 +1,24 @@
-# À faire / à vérifier
+# À faire / à vérifier (v7, 26/10/2026)
 
 ## Avant de présenter (contenu)
-- [ ] Confirmer la date du REX (30/10/2026 ?) et mettre à jour le footer des 9 slides et la couverture
-- [ ] Récupérer auprès du collègue ses outils et un exemple réel d'écran itéré (slides 4 et 5), et son prénom/nom (slides 1, 2, 14)
-- [ ] Vérifier la règle Atos et ANS sur les données envoyées aux outils d'IA, préparer la réponse (notes slide 14)
-- [ ] Garder les chiffres arrondis : 45 référentiels, environ 3 000 actions
-- [ ] Présenter la trouvabilité comme une simulation, pas comme une mesure
-- [ ] Ne rien formuler comme une critique de l'ANS, des CNP ou des collègues
-- [ ] Répéter une fois à deux pour tenir les 20 minutes
+- [ ] Confirmer la date du REX (30/10/2026 ?) : footers et couverture de la v7
+- [ ] Prénom, nom et e-mail du collègue (couverture, Questions)
+- [ ] Réponse sur les données envoyées à l'IA, selon la règle Atos et ANS (notes de Questions)
+- [ ] Capture Jira de l'étape 1 : vérifier que les noms de personnes sont fictifs ou masqués
+- [ ] Étape 1 « Partir de l'US » : aligner le sous-titre et le bloc de gauche (encore centrés sur l'atelier) avec le titre
+- [ ] Étape 2 : confirmer que la variante A est bien celle retenue
+- [ ] Étape 4 : confirmer qu'on peut déclencher les états (chargement, erreur, rejet) dans le prototype
+- [ ] Notes de « Une méthode faite pour évoluer » : garder ou non l'exemple de l'outillage devenu moins utile avec les derniers modèles
+- [ ] Nom de l'agent : « Claude Code » ou « Product Designer » (slides 7 et 11)
+- [ ] Reporter le texte de la v7 dans `contenu.md` (encore en v5)
 
-## Deck (design)
-- [ ] Basculer la collection « Typographie » en mode Biennale depuis Figma desktop, puis vérifier les retours à la ligne (Biennale est plus large que Raleway)
-- [ ] Slide 2 : confirmer la liste des usages du Design Studio (colonnes 02 à 04, « Exploration » en placeholder)
-- [ ] Slide 5 : vérifier que la capture du chargement par étapes est bien la version retenue (données fictives)
+## Durée
+- [ ] Chronométrer la v7 (22 slides) : viser environ 16 min de présentation et 4 min de questions
 - [ ] Répartition des slides entre les deux intervenants
-- [x] Captures MCPS (slides 3 et 8) : données fictives uniquement
-- [ ] Contact du collègue (slide 14)
-- [ ] Valider les 3 ajouts hors brief (voir journal)
+- [ ] Répéter une fois à deux
+
+## Règles à garder
+- Chiffres arrondis et uniquement mesurés : coût et temps par écran (test Figma), notes sur la grille du test
+- Les frises de temps sont illustratives et le disent
+- Jamais de critique de l'ANS, des CNP ou des collègues
+- Pas de tiret long ni demi-cadratin

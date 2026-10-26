@@ -18,6 +18,7 @@ Dossier de suivi du deck présenté le 30/10/2026 (date à confirmer) à la comm
 | `contenu.md` | Spec de contenu slide par slide (source de vérité du texte et des notes orateur) |
 | `charte-figma.md` | Charte Atos transposée en Figma Slides : couleurs, polices, grille, motifs, préambule JS |
 | `journal.md` | Journal des sessions et décisions |
+| `historique.md` | Résumé de la refonte v5 → v7 (structure, choix, règles apprises) |
 | `todo.md` | Points à compléter / vérifier avant de présenter |
 | `assets/` | Logo Atos (path SVG), captures MCPS |
 

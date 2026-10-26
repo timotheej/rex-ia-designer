@@ -46,20 +46,37 @@ Les fichiers installés sur le Mac (`~/Library/Fonts/biennale-{regular,medium,bo
 
 Reprise du catalogue de modèles Atos : aplats de couleur francs (deep, blue, light, grey), colonnes numérotées 01, 02…, filets fins, bandeau message clé pleine largeur en bas de slide. Plus d'escalier, de ronds reliés, de pastilles arrondies, d'anneaux ni de cartes inclinées (jugés « effet IA »).
 
-## Carte des slides (fichier `qjeA2C1hG8Xr218poRhiGS`, version 5 du 20/10/2026)
+## Carte des slides (fichier `qjeA2C1hG8Xr218poRhiGS`, version 7 du 26/10/2026)
+
+La v7 vit dans les sections Figma « v7 · … », en fin de fichier. Les sections v5 et « Brouillon v6 (test) » sont conservées, masquées. Style v7 : Inter, fond #F7F7F8, cartes blanches arrondies (16) à ombre douce, pastilles bleues, deep blue pour l'élément mis en avant.
 
 | # | ID | Section | Contenu |
 |---|---|---|---|
-| 1 | `4:2` | Intro | Couverture |
-| 2 | `4:4` | Intro | Le Design Studio s'est outillé : 4 colonnes d'usages (01 en bleu, le zoom) + bandeau |
-| 3 | `4:8` | Le cas | Un agent, des skills, un designer : blocs designer et agent, 4 lignes skills et socle, légende |
-| 4 | `4:12` | Le cas | Process en 7 étapes, repère « là où l'IA accélère » sur 02 à 04, bandeau |
-| 5 | `4:11` | Le cas | Antivirus : 4 étapes à filets à gauche, champ deep « ≈ 2 min » et capture du chargement |
-| 6 | `4:16` | Ce qu'on a appris | Fond deep : L'IA produit, le designer juge, 3 écarts fins, bandeau light |
-| 7 | `11:2` | Ce qu'on a appris | Tableau agents / un agent + skills / sans outillage |
-| 8 | `4:13` | Suite | On continue d'évoluer : tableau piste / aujourd'hui / demain (colonne deep) |
-| 9 | `4:20` | Questions | Questions et contacts |
+| 1 | `92:80` | Intro | Couverture : Notre nouvelle méthode pour créer des écrans |
+| 2 | `98:210` | Intro | Sommaire : panneau bleu, 3 chapitres numérotés |
+| 3 | `98:238` | 01 | Page de garde : Repenser notre workflow |
+| 4 | `119:149` | 01 | Question de départ (illustration pensive) |
+| 5 | `112:263` | 01 | Le workflow classique : cycle PO → UX → UI → Dev + carte temps « La boucle se répète » |
+| 6 | `120:149` | 01 | Annonce : on a intégré l'IA à notre workflow (focus UI) |
+| 7 | `112:268` | 01 | Un socle commun, construit ensemble : 3 cartes → workflow commun |
+| 8 | `92:286` | 01 | Pourquoi un seul agent : 3 cartes coût / temps par écran (17 $ / 45 min · 12 $ / 20 min · 10 $ / 15 min) |
+| 9 | `186:132` | 01 | Mono ou multi-agents : la place du designer, schémas + note sur la grille (26 / 35 · 28,5 / 35) |
+| 10 | `123:272` | 01 | Notre workflow avec l'IA : même cycle, UI + agent, comparaison d'un tour |
+| 11 | `123:275` | 01 | Un agent, nos compétences en skills : designer → agent → librairie de skills |
+| 12 | `133:80` | 01 | Notre réponse : profils UX & UI à en-tête coloré |
+| 13 | `98:264` | 02 | Page de garde : De l'US à la livraison |
+| 14 | `170:2` | 02 | Notre méthode, sur un vrai parcours : timeline des 4 étapes + capture du service |
+| 15 | `92:166` | 02 | 1. Partir de l'US : capture Jira |
+| 16 | `151:82` | 02 | 2. Générer les écrans avec l'agent : 4 cartes (cadre, variantes, chat, choix) |
+| 17 | `151:106` | 02 | 3. Documenter le parcours dans Figma : flow + 3 mots-clés |
+| 18 | `162:2` | 02 | 4. Livrer un prototype codé : vidéo + 3 mots-clés |
+| 19 | `98:290` | 03 | Page de garde : La suite |
+| 20 | `186:128` | 03 | Une méthode faite pour évoluer : Aujourd'hui / Demain / En continu |
+| 21 | `192:2` | 03 | Ce qu'on retient : 3 messages + preuves |
+| 22 | `92:329` | 03 | Questions ? et contacts |
 
-Slides supprimées en v5 : `4:18` et `4:19`. En v4 : `4:5`, `4:7`, `4:10`, `4:15`, `11:3`.
+Masquées dans la v7 : `106:149`, `95:210` (chapitre 01) · `151:110`, `149:82`, `92:167`, `92:204`, `92:232` (chapitre 02) · `92:328` (chapitre 03).
+
+Ancienne carte v5 (sections du début du fichier, masquées) : `4:2`, `4:4`, `4:8`, `4:12`, `4:11`, `4:16`, `11:2`, `4:13`, `4:20`.
 
 Notes orateur : renseignées sur chaque slide (`slide.speakerNotes`, markdown), avec la durée.
